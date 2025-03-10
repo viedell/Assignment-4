@@ -9,7 +9,7 @@ perfect = any(score == 100 for score in [math, science, english])
 print("Average: ", average)
 print("Below 70: ", below_70)
 print("Perfect: ", perfect)
-if average > 75 or below_70 <= 1 or perfect:
+if average > 75 and below_70 <= 1 or perfect:
     print("Pass")
 else:
     print("Fail")
